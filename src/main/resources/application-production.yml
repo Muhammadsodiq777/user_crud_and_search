@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: postgres
+    password: 9654
+    url: jdbc:postgresql://localhost:5432/test_db
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database: postgresql
