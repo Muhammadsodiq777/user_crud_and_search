@@ -16,7 +16,7 @@ import org.zulfiqor.user_crud_and_search.model.entity.base.BaseAuditEntity;
 @NoArgsConstructor
 @Table(name = "address")
 @Entity
-class Address extends BaseAuditEntity {
+public class Address extends BaseAuditEntity {
 
     private String address;
     

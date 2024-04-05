@@ -18,8 +18,8 @@ import java.util.Set;
 @Entity
 public class User extends BaseEntity {
 
-    private String lastName;
-    private String firstName;
+    private String lastname;
+    private String firstname;
     private String middleName;
     private String username;
     private String password;

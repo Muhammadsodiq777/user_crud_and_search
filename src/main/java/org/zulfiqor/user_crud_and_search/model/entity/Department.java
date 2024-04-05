@@ -1,5 +1,6 @@
 package org.zulfiqor.user_crud_and_search.model.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -28,6 +29,6 @@ public class Department extends BaseAuditEntity {
     private Department parent;
 
     @OneToMany(mappedBy = "parent", cascade = CascadeType.ALL)
+    @JsonIgnore
     private List<Department> children = new ArrayList<>();
-
 }

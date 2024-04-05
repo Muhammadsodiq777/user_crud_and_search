@@ -19,7 +19,7 @@ import java.util.List;
 @NoArgsConstructor
 @Table(name = "region")
 @Entity
-class Region extends BaseAuditEntity {
+public class Region extends BaseAuditEntity {
 
     private String nameUz;
     private String nameRu;
