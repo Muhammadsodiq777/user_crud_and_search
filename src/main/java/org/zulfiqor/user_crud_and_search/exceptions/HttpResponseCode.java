@@ -2,6 +2,7 @@ package org.zulfiqor.user_crud_and_search.exceptions;
 
 public enum HttpResponseCode {
     SUCCESS(200, "success"),
+    CREATED(201, "Yaratildi"),
     TOKEN_EXPIRE(413, "Sizning tokeningiz eskirgan"),
     NOT_FOUND(404, "Malumot topilmadi"),
     NOT_PERMITTED(403, "Ruxsat berilmagan"),

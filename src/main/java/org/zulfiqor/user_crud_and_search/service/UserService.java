@@ -11,5 +11,7 @@ public interface UserService {
 
     GeneralResponse createUser(UserRequestDto requestDto);
 
-    GeneralResponse updateUser();
+    GeneralResponse updateUser(UserRequestDto requestDto);
+
+    GeneralResponse deleteUser(Long userId);
 }
